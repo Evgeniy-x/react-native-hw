@@ -44,7 +44,7 @@ const PostItem = ({ data, navigation }) => {
           }}
         >
           <Ionicons name="location-outline" size={18} color="#BDBDBD" />
-          <Text style={locationLabel}>{location?.country || "невідомо"}</Text>
+          <Text style={locationLabel}>{location?.country || "Невідомо"}</Text>
         </View>
       </View>
     </View>

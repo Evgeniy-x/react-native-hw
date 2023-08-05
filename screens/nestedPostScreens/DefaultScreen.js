@@ -14,6 +14,12 @@ const DefaultPhotoScreen = ({ navigation, route }) => {
     }
   }, [route.params]);
 
+  // useEffect(() => {
+  //   if (route.params) {
+  //     setPosts((prevState) => [...prevState, route.params]);
+  //   }
+  // }, [route.params]);
+
   return (
     <View style={styles.postsContainer}>
       <View style={styles.userContainer}>

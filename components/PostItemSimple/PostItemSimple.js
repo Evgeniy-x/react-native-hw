@@ -18,7 +18,7 @@ import {
 const PostItemSimple = ({ data, navigation }) => {
   const { title, image, location, comments } = data;
   const locationInfo = `${location?.region || "невідомо"}, ${
-    location?.country || "невідомо"
+    location?.country || "Невідомо"
   }`;
   console.log(data);
   const commentsHandler = () => {
